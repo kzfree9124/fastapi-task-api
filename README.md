@@ -56,7 +56,10 @@ CoverageのHTMLレポートは以下から生成できます。
     poetry run coverage html
 生成された 'htmlcov/index.html' をブラウザで開くと、  
 各ファイルのカバレッジを視覚的に確認できます。
+※coverageは100% ではありませんが、テスト価値の低い箇所は意図的に除外しています。必要なロジックは十分にカバーされています。
 
+## Coverage計測結果
+![Coverage](images/coverage.png)
 
 ＜Dockerでの起動方法＞
 docker compose up --build
