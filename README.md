@@ -2,6 +2,15 @@
 FastAPIを使った認証付きタスク管理APIです。
 JWT認証、CRUD、例外処理、pytestによるテスト、Dockerによる環境構築を備えています。
 
+## Swagger UI
+![Swagger UI](images/docs.png)
+
+## Authorizeボタン
+![Authorize](images/Authoriraze.png)
+
+## 認証後のタスク一覧
+![Task List](images/get_tasks.png)
+
 ＜使用技術＞
 - FastAPI
 - Python
