@@ -1,4 +1,4 @@
-＜プロジェクト概要＞
+＜プロジェクト概要＞  
 FastAPIを使った認証付きタスク管理APIです。
 JWT認証、CRUD、例外処理、pytestによるテスト、Dockerによる環境構築を備えています。
 
@@ -42,7 +42,7 @@ PUT /tasks/{task_id}
 DELETE /tasks/{task_id}
 ```
 
-＜テストについて＞
+＜テストについて＞  
 pytestによるテストを実装しています。
 - 認証の正常系、異常系
 - タスクCRUDの正常系、異常系
@@ -55,16 +55,16 @@ pytestによるテストを実装しています。
 CoverageのHTMLレポートは以下から生成できます。
     poetry run coverage html
 生成された 'htmlcov/index.html' をブラウザで開くと、  
-各ファイルのカバレッジを視覚的に確認できます。
+各ファイルのカバレッジを視覚的に確認できます。  
 ※coverageは100% ではありませんが、テスト価値の低い箇所は意図的に除外しています。必要なロジックは十分にカバーされています。
 
 ## Coverage計測結果
 ![Coverage](images/coverage.png)
 
-＜Dockerでの起動方法＞
+＜Dockerでの起動方法＞  
 docker compose up --build
 
-＜ディレクトリ構成＞
+＜ディレクトリ構成＞  
 app/
   ├── main.py       # FastAPI アプリケーションのエントリポイント
   ├── routers/      # 認証・タスクのルーター
