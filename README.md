@@ -51,7 +51,7 @@ pytestによるテストを実装しています。
 - 例外処理を全て網羅
 - coverageによるカバレッジ計測
 
-＜Coverageの確認方法＞
+＜Coverageの確認方法＞  
 CoverageのHTMLレポートは以下から生成できます。
     poetry run coverage html
 生成された 'htmlcov/index.html' をブラウザで開くと、  
