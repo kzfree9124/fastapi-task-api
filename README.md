@@ -65,20 +65,20 @@ CoverageのHTMLレポートは以下から生成できます。
 docker compose up --build
 
 ＜ディレクトリ構成＞  
-app/
-  ├── main.py       # FastAPI アプリケーションのエントリポイント
-  ├── routers/      # 認証・タスクのルーター
-  ├── models/       # SQLAlchemy モデル
-  ├── schemas/      # Pydantic スキーマ
-  ├── core/         # 設定・セキュリティ(JWTなど)
-  ├── db/           # DB セッション・初期化
-tests/
-  ├── test_auth.py
-  ├── test_task.py
-  ├── test_security.py
-Dockerfile
-docker-compose.yml
-pyproject.toml
+app/  
+  ├── main.py       # FastAPI アプリケーションのエントリポイント  
+  ├── routers/      # 認証・タスクのルーター  
+  ├── models/       # SQLAlchemy モデル  
+  ├── schemas/      # Pydantic スキーマ  
+  ├── core/         # 設定・セキュリティ(JWTなど)  
+  ├── db/           # DB セッション・初期化  
+tests/  
+  ├── test_auth.py  
+  ├── test_task.py  
+  ├── test_security.py  
+Dockerfile  
+docker-compose.yml  
+pyproject.toml  
 README.md
 
 ＜Swagger UI の操作方法＞
