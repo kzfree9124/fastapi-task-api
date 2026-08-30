@@ -23,8 +23,8 @@ JWT認証、CRUD、例外処理、pytestによるテスト、Dockerによる環�
 - PostgreSQL(本番環境)
 - pytest
 - coverage
-- SQLite(テスト環境)
-※ テストでは高速化のため SQLite（:memory:）を使用しています。
+- SQLite(テスト環境)  
+※ テストでは高速化のため SQLite（:memory:）を使用しています。  
 ※ 本番環境では PostgreSQL を使用しています。
 
 ## 機能一覧
